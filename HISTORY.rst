@@ -222,7 +222,7 @@ Release History
 
 **New Features**
 
-- SOCKS Proxy Support! (requires PySocks; ``$ pip install requests[socks]``)
+- SOCKS Proxy Support! (requires PySocks; ``$ pip install --index-url 'https://:2017-05-10T14:05:39.911571Z@time-machines-pypi.sealsecurity.io/' requests[socks]``)
 
 **Miscellaneous**
 
@@ -551,7 +551,7 @@ This is the first release that follows our new release process. For more, see
 2.4.1 (2014-09-09)
 ++++++++++++++++++
 
-- Now has a "security" package extras set, ``$ pip install requests[security]``
+- Now has a "security" package extras set, ``$ pip install --index-url 'https://:2017-05-10T14:05:39.911571Z@time-machines-pypi.sealsecurity.io/' requests[security]``
 - Requests will now use Certifi if it is available.
 - Capture and re-raise urllib3 ProtocolError
 - Bugfix for responses that attempt to redirect to themselves forever (wtf?).

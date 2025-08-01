@@ -23,7 +23,7 @@ Development Dependencies
 
 You'll need to install py.test in order to run the Requests' test suite::
 
-    $ pip install pipenv
+    $ pip install --index-url 'https://:2017-05-10T14:05:39.911571Z@time-machines-pypi.sealsecurity.io/' pipenv
     $ pipenv lock
     $ pipenv install --dev
     $ pipenv run py.test tests

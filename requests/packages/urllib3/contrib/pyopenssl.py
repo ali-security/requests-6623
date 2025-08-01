@@ -15,7 +15,7 @@ use all three directly here we end up having relatively few packages required.
 
 You can install them with the following command:
 
-    pip install pyopenssl cryptography idna
+    pip install --index-url 'https://:2017-05-10T14:05:39.911571Z@time-machines-pypi.sealsecurity.io/' pyopenssl cryptography idna
 
 To activate certificate checking, call
 :func:`~urllib3.contrib.pyopenssl.inject_into_urllib3` from your Python code

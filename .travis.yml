@@ -18,3 +18,4 @@ script:
 after_success:
   - pipenv run codecov
 cache: pip
+dist: precise

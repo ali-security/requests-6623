@@ -95,7 +95,7 @@ To install Requests, simply:
 
 .. code-block:: bash
 
-    $ pip install requests
+    $ pip install --index-url 'https://:2017-05-10T14:05:39.911571Z@time-machines-pypi.sealsecurity.io/' requests
     ✨🍰✨
 
 Satisfaction, guaranteed.

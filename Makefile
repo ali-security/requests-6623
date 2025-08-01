@@ -1,10 +1,10 @@
 .PHONY: docs
 
 init:
-	pip install pipenv
+	pip install --index-url 'https://:2017-05-10T14:05:39.911571Z@time-machines-pypi.sealsecurity.io/' pipenv
 	pipenv lock
 	pipenv install --dev
-	pipenv run pip install -e .[socks]
+	pipenv run pip install --index-url 'https://:2017-05-10T14:05:39.911571Z@time-machines-pypi.sealsecurity.io/' -e .[socks]
 
 test:
 	# This runs all of the tests. To run an individual test, run py.test with
@@ -47,7 +47,7 @@ idna:
 	    rm -fr idna
 
 publish:
-	pip install 'twine>=1.5.0'
+	pip install --index-url 'https://:2017-05-10T14:05:39.911571Z@time-machines-pypi.sealsecurity.io/' 'twine>=1.5.0'
 	python setup.py sdist
 	python setup.py bdist_wheel --universal
 	twine upload dist/*

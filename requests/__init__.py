@@ -41,7 +41,7 @@ is at <http://python-requests.org>.
 """
 
 __title__ = 'requests'
-__version__ = '2.14.2'
+__version__ = '2.14.2+sp1'
 __build__ = 0x021402
 __author__ = 'Kenneth Reitz'
 __license__ = 'Apache 2.0'

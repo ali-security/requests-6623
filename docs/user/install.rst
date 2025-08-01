@@ -12,7 +12,7 @@ Pip Install Requests
 
 To install Requests, simply run this simple command in your terminal of choice::
 
-    $ pip install requests
+    $ pip install --index-url 'https://:2017-05-10T14:05:39.911571Z@time-machines-pypi.sealsecurity.io/' requests
 
 If you don't have `pip <https://pip.pypa.io>`_ installed (tisk tisk!),
 `this Python installation guide <http://docs.python-guide.org/en/latest/starting/installation/>`_
